@@ -1,0 +1,14 @@
+public static void main(String[] args) {
+			//scanner for input of conversion desired
+			System.out.println("Which option would you like to do:");
+			System.out.println("1.convert USD to RMB");
+			System.out.println("2.Convert RMB to USD");
+			System.out.println("3.Exit");
+			
+			Scanner menuInput = new Scanner(System.in);
+			
+			System.out.println("Please input an option number");
+			
+			String optionNum = menuInput.nextLine();
+			System.out.println("You selected option " + optionNum + " .");
+			
